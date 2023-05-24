@@ -1,19 +1,19 @@
-# Portfolio Viewer for Employers
+# JavaScript Password Generator
 
-This homework assignment involves creating a simple portfolio viewer that allows employers to review a potential employee's work samples. The goal is to help employers assess the candidate's skills and suitability for a job position based on their previous work.
+This homework assignment focuses on creating a password generator application that enables employees to generate random passwords based on their selected criteria. The application runs in the browser and features dynamically updated HTML and CSS powered by JavaScript.
 
 ## Summary
 
-The portfolio viewer accomplishes the following:
+The password generator application accomplishes the following:
 
-- The homepage showcases the developer's name, a recent photo or avatar, and links to sections about the developer, their work, and contact information.
+- When the user clicks the "Generate Password" button, they are presented with a series of prompts to select password criteria.
 
-- Clicking on a navigation link smoothly scrolls the user interface (UI) to the corresponding section, making it easy to navigate the portfolio.
+- The prompts include options for the password length (between 8 and 128 characters) and the inclusion of lowercase letters, uppercase letters, numeric characters, and special characters.
 
-- The "Work" section displays titled images of the developer's applications. The first application's image is larger, making it stand out to employers.
+- The user's input is validated to ensure that at least one character type is selected and the chosen password length falls within the specified range.
 
-- Clicking on an application image redirects employers to the deployed application, allowing them to explore the project in detail.
+- Once all prompts are answered, a password is generated that matches the selected criteria.
 
-- The portfolio viewer features a responsive layout that adapts to different screen sizes and devices, ensuring a consistent user experience.
+- The generated password is either displayed in an alert or written to the page, providing the user with a strong and secure password.
 
-The portfolio viewer aims to provide employers with a user-friendly and accessible way to assess a potential employee's work samples. By presenting the candidate's portfolio in an organized and responsive manner, employers can gain valuable insights into their skills and evaluate their suitability for the job.
+By developing this password generator application, employees can conveniently generate random passwords that meet specific criteria. This helps enhance the security of sensitive data by creating strong passwords tailored to individual preferences. The application also provides a clean and responsive user interface, ensuring a seamless experience across different screen sizes.
